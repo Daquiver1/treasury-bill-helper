@@ -30,7 +30,7 @@ class Scraper:
 
         s = Service(ChromeDriverManager().install())
         options = webdriver.ChromeOptions()
-        # options.add_argument("--headless=new")
+        options.add_argument("--headless=new")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
 
@@ -41,7 +41,7 @@ class Scraper:
             WebDriverWait(self.driver, 30).until(
                 EC.presence_of_element_located((By.ID, "table_1"))
             )
-            time.sleep(5)
+            time.sleep(3)
             self.content = self.driver.page_source
             self.soup = BeautifulSoup(self.content, "lxml")
         except (NoSuchElementException, NoSuchAttributeException) as e:
