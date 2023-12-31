@@ -1,4 +1,4 @@
-# Daquiver's Ghana Treasury Bill Helper
+# Daquiver's Treasury Bill Helper
 
 ## Overview
 
@@ -16,11 +16,11 @@ To get started with the project, follow these installation instructions:
 
 1. Clone the repository:
    ```
-   git clone https://github.com/daquiver1/ghana-treasury-bill-helper.git
+   git clone https://github.com/Daquiver1/treasury-bill-helper.git
    ```
 2. Navigate to the project directory:
    ```
-   cd ghana-treasury-bill-helper
+   cd treasury-bill-helper
    ```
 3. Install the required dependencies:
    ```
